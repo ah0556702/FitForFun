@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="Fitness, Training, Yoga, Gym"/>
+    <link href="style.css" rel="stylesheet"/>
+
+    <title>Fit For Fun Fitness Club</title>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="header_logo">
+        <a href="index.html">
+          <img src="logo.png" alt="logo" width="300"/>
+        </a>
+      </div>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="info.html">Request Info</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form class="form" method="get" action="thankyou-1.html">
+
+      <fieldset id="contact_info" name="Contact Information" class="contact">
+        <legend class="legend">Contact Information</legend>
+        <div class="contact">
+          <label for="first_name">First Name: </label>
+          <input type="text" name="FirstName" id="first_name" required>
+          <label for="last_name">Last Name: </label>
+          <input type="text" name="LastName" id="last_name" required>
+          <label for="email">Email: </label>
+          <input type="email" name="Email" id="email" required>
+          <label for="phone">Phone: </label>
+          <input type="phone" name="Phone" id="phone" required>
+        </div>
+      </fieldset>
+
+      <fieldset class="preferrences">
+        <legend class="legend">Preferrences</legend>
+        <div class="contactmethod">
+          <label for="contactmethod">Best way to reach you: </label>
+          <select class="preferrences">
+            <option>Phone</option>
+            <option>Email</option>
+            <option>Owl</option>
+          </select>
+        </div>
+
+        <div class="classtime">
+          <label for="classtime">Preferred class time: </label>
+          <label for="am">AM </label>
+          <input type="radio" name="Time" id="am">
+          <label for="pm">PM </label>
+          <input type="radio" name="Time" id="pm">
+        </div>
+
+      </fieldset>
+
+      <fieldset class="classes">
+        <legend>Classes</legend>
+        <div class="checkbox">
+          <label for="crosstraining">Cross Training</label>
+          <input type="checkbox" name="crosstraining" id="crosstraining">
+          <label for="spin">spin</label>
+          <input type="checkbox" name="spin" id="spin">
+          <label for="sprint">Sprint</label>
+          <input type="checkbox" name="sprint" id="sprint">
+          <label for="bodypump">BodyPump</label>
+          <input type="checkbox" name="bodypump" id="bodypump">
+          <label for="bodycombat">BodyCombat</label>
+          <input type="checkbox" name="bodycombat" id="bodycombat">
+          <label for="stepinterval">Step Interval</label>
+          <input type="checkbox" name="stepinterval" id="stepinterval">
+          <label for="mixxedfit">MixxedFIT</label>
+          <input type="checkbox" name="mixxedfit" id="mixxedfit">
+          <label for="zumba">Zumba</label>
+          <input type="checkbox" name="zumba" id="zumba">
+        </div>
+      </fieldset>
+
+      <fieldset class="information">
+        <legend>Additional Information</legend>
+        <textarea class="textarea" placeholder="Enter any additional information here..." name="AdditionalInformation" rows="8" cols="80" wrap="hard" autofocus></textarea>
+      </fieldset>
+
+      <fieldset class="submit">
+        <input type="submit" onClick="printQuery()"/>
+      </fieldset>
+
+    </form>
+
+
+
+
+    <footer>
+      <p>Fun For Fitness: Fitness Club &copy; 2022</p>
+    </footer>
+
+  </body>
+</html>

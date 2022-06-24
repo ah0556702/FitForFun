@@ -1,0 +1,134 @@
+  @charset "utf-8";
+  @font-face {
+    font-family: 'Voltage';
+    src: url(Voltage-Regular.otf);
+  }
+
+
+  html {
+    background-color: #b0a990;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .header_logo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu {
+    font-family: "Voltage";
+    font-size: 1.6em;
+    margin-top: 35px;
+    background-color: #211a1e;
+    border: solid #211a1e;
+    box-shadow: 0px 0px 25px white;
+  }
+
+  .menu li {
+    display: inline;
+    margin: 0px 150px;
+  }
+
+  .menu a:link {
+    color: #edf4fe;
+    text-decoration: none;
+  }
+
+  .menu a:visited {
+    color: #edf4fe;
+    text-decoration: none;
+  }
+
+  .menu a:hover {
+    color: #ff1467;
+    text-decoration: none;
+  }
+
+  .menu a:active {
+    color: #ff1467;
+    text-decoration: underline;
+  }
+
+  body {
+    display: inline;
+    font-family: "Voltage";
+  }
+
+  section {
+    display: columns;
+    columns: 2;
+    column-rule: 2px solid #211a1e;
+  }
+
+  .services {
+    float: left;
+    column-span: all;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .services img {
+    border: 2px solid #211a1e;
+    box-shadow: 0px 0px 20px #ff1467;
+  }
+
+  .description {
+    font-size: 1.9em;
+    padding-top: 125px;
+  }
+
+  table {
+    background-color: white;
+    border: 2px solid #211a1e;
+    font-size: 1.2em;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+    box-shadow: 0px 0px 20px #ff1467;
+  }
+
+  table h1 {
+    font-size: 2.5em;
+  }
+
+  th, tr, td {
+    border: 1px solid #211a1e;
+  }
+
+  form {
+    background-color: #211a1e;
+    color: white;
+    font-size: 1.3em;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 95%;
+    border: solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #ff1467;
+  }
+
+  .textarea {
+    width: 45%;
+    overflow: auto;
+    word-wrap: normal;
+    box-sizing: border-box;
+  }
+
+  .classes label, input {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer p {
+    text-align: right;
+    font-size: 1.2em;
+    color: black;
+
+  }
