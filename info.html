@@ -40,7 +40,7 @@
           <label for="email">Email: </label>
           <input type="email" name="Email" id="email" required>
           <label for="phone">Phone: </label>
-          <input type="phone" name="Phone" id="phone" required>
+          <input type="tel" name="Phone" id="phone" required>
         </div>
       </fieldset>
 
@@ -48,7 +48,7 @@
         <legend class="legend">Preferrences</legend>
         <div class="contactmethod">
           <label for="contactmethod">Best way to reach you: </label>
-          <select class="preferrences">
+          <select id="contactmethod" class="preferrences">
             <option>Phone</option>
             <option>Email</option>
             <option>Owl</option>
@@ -57,7 +57,7 @@
 
         <div class="classtime">
           <label for="classtime">Preferred class time: </label>
-          <label for="am">AM </label>
+          <label id="classtime" for="am">AM </label>
           <input type="radio" name="Time" id="am">
           <label for="pm">PM </label>
           <input type="radio" name="Time" id="pm">
